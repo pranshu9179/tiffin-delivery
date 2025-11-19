@@ -1,0 +1,90 @@
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T05:21:24.635Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T05:21:25.275Z"}
+{"correlationId":"42b82977-24e5-4adf-9555-4b76e0982d2c","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-18T05:22:18.589Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:05:22:18 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T05:22:18.594Z"}
+{"correlationId":"1a593b1e-5303-4aae-ad31-0a4781ebe87d","level":"error","message":"Unhandled Error Email already registered","stack":"Error: Email already registered\n    at Object.register (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\services\\auth.service.js:17:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\routes\\auth.routes.js:31:18","timestamp":"2025-11-18T05:22:44.068Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:05:22:44 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 500 106 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T05:22:44.070Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":500,"time":"24.633ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-18T05:22:44.072Z"}
+{"correlationId":"254fe05b-8b86-4d35-8d8e-57e7936282c7","level":"error","message":"Unhandled Error Email already registered","stack":"Error: Email already registered\n    at Object.register (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\services\\auth.service.js:17:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\routes\\auth.routes.js:31:18","timestamp":"2025-11-18T05:24:38.273Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:05:24:38 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 500 106 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T05:24:38.274Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":500,"time":"9.402ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-18T05:24:38.275Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:05:24:57 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 100 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T05:24:57.781Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"166.661ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-18T05:24:57.781Z"}
+{"correlationId":"5a708fde-31ef-4cf6-aa11-5461a62d737c","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-18T05:25:15.101Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:05:25:15 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T05:25:15.103Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:25:54.733Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:25:55.282Z"}
+{"correlationId":"deab145d-2e5d-4c04-b0ed-131da87fa5f9","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-18T11:26:47.860Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:11:26:47 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T11:26:47.865Z"}
+{"correlationId":"8097c574-c6f9-4c7e-af21-6ec60d16142c","level":"error","message":"Unhandled Error Email already registered","stack":"Error: Email already registered\n    at Object.register (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\services\\auth.service.js:17:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\routes\\auth.routes.js:31:18","timestamp":"2025-11-18T11:27:27.808Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:11:27:27 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 500 106 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T11:27:27.809Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":500,"time":"13.841ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-18T11:27:27.810Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:36:02.964Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:36:03.324Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:36:49.633Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:36:49.905Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:42:08.762Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:48:03.646Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:48:03.727Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:48:33.719Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:48:33.987Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:48:42.168Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:48:42.401Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:48:57.930Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:48:58.219Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:49:04.766Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:49:05.023Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:49:34.759Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:49:35.020Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:49:42.905Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:49:43.132Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:51:38.312Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:51:38.588Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:51:47.148Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:51:47.414Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:51:48.881Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:51:49.166Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:08.097Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:08.378Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:12.402Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:12.680Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:28.237Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:28.529Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:33.507Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:33.781Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:47.603Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:47.915Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:52:53.300Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:52:53.540Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:53:05.488Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:53:05.771Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:53:09.876Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:53:10.131Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:53:27.751Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:53:28.067Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:53:32.868Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:53:33.182Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:54:11.305Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:54:11.604Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:54:16.778Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:54:17.039Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:54:36.428Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:54:36.765Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:54:42.219Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:54:42.491Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:55:21.909Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:55:22.248Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T11:55:26.686Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T11:55:26.999Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T12:23:17.675Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T12:23:18.182Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:12:24:19 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 83 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T12:24:19.008Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"121.491ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-18T12:24:19.009Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:12:25:43 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 636 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-18T12:25:43.911Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"143.962ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-18T12:25:43.911Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T12:34:47.336Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T12:34:48.841Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T12:35:46.247Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T12:35:47.717Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-18T12:35:58.180Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-18T12:35:59.644Z"}

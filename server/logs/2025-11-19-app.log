@@ -1,0 +1,97 @@
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:35:27.318Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:35:28.759Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:42:53.684Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:42:55.117Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:43:54.167Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:43:55.417Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:44:27.214Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:44:28.441Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:04:44:46 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 112 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T04:44:46.798Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"88.257ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-19T04:44:46.799Z"}
+{"correlationId":"247525e9-99af-4813-89f8-fe7bc3bc9a5c","details":null,"level":"warn","message":"API Error generateToken is not a function","status":401,"timestamp":"2025-11-19T04:44:57.648Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:04:44:57 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 401 131 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T04:44:57.649Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":401,"time":"68.347ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T04:44:57.650Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:47:57.819Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:47:59.176Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:48:24.963Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:48:26.292Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:48:43.703Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:48:45.036Z"}
+{"correlationId":"9da741a9-cd1d-4a98-b401-63cf648f972e","details":null,"level":"warn","message":"API Error notNull Violation: refresh_token.token_hash cannot be null,\nnotNull Violation: refresh_token.jti cannot be null","status":401,"timestamp":"2025-11-19T04:49:15.714Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:04:49:15 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 401 212 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T04:49:15.717Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":401,"time":"91.649ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T04:49:15.718Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:50:32.787Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:50:34.422Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:51:10.847Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:51:12.366Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:51:34.566Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:51:35.882Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:53:45.512Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:53:46.888Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T04:54:32.694Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T04:54:34.032Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:04:55:22 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 630 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T04:55:22.615Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"100.821ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T04:55:22.617Z"}
+{"correlationId":"88179f3b-a73e-4f71-bdda-8860faf80147","details":null,"level":"warn","message":"API Error Invalid refresh token","status":401,"timestamp":"2025-11-19T05:51:13.940Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:05:51:13 +0000] \"POST /api/v1/auth/refresh HTTP/1.1\" 401 121 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T05:51:13.945Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":401,"time":"46.437ms","type":"http","url":"/api/v1/auth/refresh","userId":"Developer"},"timestamp":"2025-11-19T05:51:13.946Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:05:52:59 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 630 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T05:52:59.388Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"163.961ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T05:52:59.389Z"}
+{"correlationId":"b69ff6e7-4dd1-4e50-837e-20dba3b07bab","level":"error","message":"Unhandled Error Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\body-parser\\lib\\types\\json.js:156:10)\n    at parse (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\body-parser\\lib\\types\\json.js:71:15)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2025-11-19T05:56:41.355Z"}
+{"correlationId":"7e5c7a6b-9920-4761-9e52-7f3ca8fa7d6f","details":["\"body.refreshToken\" is required"],"level":"warn","message":"API Error Validation failed","status":400,"timestamp":"2025-11-19T05:57:18.848Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:05:57:18 +0000] \"POST /api/v1/auth/refresh HTTP/1.1\" 400 150 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T05:57:18.849Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":400,"time":"4.100ms","type":"http","url":"/api/v1/auth/refresh","userId":"Developer"},"timestamp":"2025-11-19T05:57:18.849Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:05:58:14 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 630 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T05:58:14.359Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"70.835ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T05:58:14.359Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:05:58:36 +0000] \"POST /api/v1/auth/refresh HTTP/1.1\" 200 557 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T05:58:36.935Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"32.005ms","type":"http","url":"/api/v1/auth/refresh","userId":"Developer"},"timestamp":"2025-11-19T05:58:36.935Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:00:43 +0000] \"POST /api/v1/auth/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:00:43.661Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"8.872ms","type":"http","url":"/api/v1/auth/logout","userId":"Developer"},"timestamp":"2025-11-19T06:00:43.662Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:01:16 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 630 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:01:16.690Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"68.293ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T06:01:16.691Z"}
+{"correlationId":"2e761635-8353-4f38-bc72-101b3d8d3d48","details":["\"body.name\" is required","\"body.email\" is required","\"body.password\" is required","\"body.role\" is required"],"level":"warn","message":"API Error Validation failed","status":400,"timestamp":"2025-11-19T06:02:34.703Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:02:34 +0000] \"POST /api/v1/admin/users HTTP/1.1\" 400 231 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:02:34.704Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":400,"time":"2.845ms","type":"http","url":"/api/v1/admin/users","userId":"Developer"},"timestamp":"2025-11-19T06:02:34.704Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:02:59 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 451 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:02:59.371Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"GET","status":200,"time":"14.139ms","type":"http","url":"/api/v1/admin/users","userId":"Developer"},"timestamp":"2025-11-19T06:02:59.371Z"}
+{"correlationId":"ea4bd18b-b186-47e3-8e33-65cb8b479a5c","details":["\"body.password\" length must be at least 8 characters long"],"level":"warn","message":"API Error Validation failed","status":400,"timestamp":"2025-11-19T06:04:20.675Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:04:20 +0000] \"POST /api/v1/admin/users HTTP/1.1\" 400 176 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:04:20.676Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":400,"time":"2.110ms","type":"http","url":"/api/v1/admin/users","userId":"Developer"},"timestamp":"2025-11-19T06:04:20.676Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:04:28 +0000] \"POST /api/v1/admin/users HTTP/1.1\" 201 127 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:04:28.354Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"11.970ms","type":"http","url":"/api/v1/admin/users","userId":"Developer"},"timestamp":"2025-11-19T06:04:28.355Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:07:54 +0000] \"POST /api/v1/admin/users/3 HTTP/1.1\" 404 160 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:07:54.749Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":404,"time":"1.823ms","type":"http","url":"/api/v1/admin/users/3","userId":"Developer"},"timestamp":"2025-11-19T06:07:54.750Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:08:39 +0000] \"PUT /api/v1/admin/users/3 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:08:39.087Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"PUT","status":200,"time":"23.176ms","type":"http","url":"/api/v1/admin/users/3","userId":"Developer"},"timestamp":"2025-11-19T06:08:39.088Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:09:22 +0000] \"DELETE /api/v1/admin/users/3 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:09:22.084Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"DELETE","status":200,"time":"10.457ms","type":"http","url":"/api/v1/admin/users/3","userId":"Developer"},"timestamp":"2025-11-19T06:09:22.084Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:13:08 +0000] \"GET /api/v1/admin/subscriptions HTTP/1.1\" 200 21 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:13:08.310Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"GET","status":200,"time":"11.375ms","type":"http","url":"/api/v1/admin/subscriptions","userId":"Developer"},"timestamp":"2025-11-19T06:13:08.311Z"}
+{"correlationId":"5bdb4982-15cf-4051-bae9-d74b938cc233","details":null,"level":"warn","message":"API Error Subscription plan not found","status":404,"timestamp":"2025-11-19T06:14:32.294Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:14:32 +0000] \"POST /api/v1/admin/subscriptions HTTP/1.1\" 404 127 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:14:32.295Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":404,"time":"6.700ms","type":"http","url":"/api/v1/admin/subscriptions","userId":"Developer"},"timestamp":"2025-11-19T06:14:32.295Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T06:27:44.420Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T06:27:46.043Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T06:29:19.087Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T06:29:20.553Z"}
+{"correlationId":"c2f489c2-3f95-45fd-9002-4a56dbd3ce5c","details":null,"level":"warn","message":"API Error Invalid or expired token","status":401,"timestamp":"2025-11-19T06:30:16.895Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:30:16 +0000] \"POST /api/v1/admin/subscription-plans HTTP/1.1\" 401 124 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:30:16.899Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":401,"time":"5.944ms","type":"http","url":"/api/v1/admin/subscription-plans","userId":"Developer"},"timestamp":"2025-11-19T06:30:16.899Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:30:49 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 630 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:30:49.401Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":200,"time":"88.864ms","type":"http","url":"/api/v1/auth/login","userId":"Developer"},"timestamp":"2025-11-19T06:30:49.401Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:32:01 +0000] \"POST /api/v1/admin/subscription-plans HTTP/1.1\" 201 289 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:32:01.901Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"9.239ms","type":"http","url":"/api/v1/admin/subscription-plans","userId":"Developer"},"timestamp":"2025-11-19T06:32:01.902Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:32:47 +0000] \"POST /api/v1/admin/subscription-plans HTTP/1.1\" 201 289 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:32:47.074Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"10.223ms","type":"http","url":"/api/v1/admin/subscription-plans","userId":"Developer"},"timestamp":"2025-11-19T06:32:47.074Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:33:13 +0000] \"GET /api/v1/admin/subscription-plans HTTP/1.1\" 200 490 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:33:13.518Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"GET","status":200,"time":"8.928ms","type":"http","url":"/api/v1/admin/subscription-plans","userId":"Developer"},"timestamp":"2025-11-19T06:33:13.518Z"}
+{"correlationId":"a389cd7a-e85a-4eb7-9f1c-a6fc54445fcd","details":null,"level":"warn","message":"API Error Invalid or expired token","status":401,"timestamp":"2025-11-19T06:34:07.047Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:34:07 +0000] \"POST /api/v1/admin/subscriptions HTTP/1.1\" 401 124 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:34:07.048Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":401,"time":"1.574ms","type":"http","url":"/api/v1/admin/subscriptions","userId":"Developer"},"timestamp":"2025-11-19T06:34:07.049Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:35:28 +0000] \"POST /api/v1/admin/subscriptions HTTP/1.1\" 201 346 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:35:28.983Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"POST","status":201,"time":"11.909ms","type":"http","url":"/api/v1/admin/subscriptions","userId":"Developer"},"timestamp":"2025-11-19T06:35:28.983Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:06:38:32 +0000] \"PUT /api/v1/admin/subscriptions/1/status HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-19T06:38:32.208Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.49.1","ip":"::1","method":"PUT","status":200,"time":"10.461ms","type":"http","url":"/api/v1/admin/subscriptions/1/status","userId":"Developer"},"timestamp":"2025-11-19T06:38:32.208Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T08:53:22.258Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-19T08:53:24.308Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-19T09:09:06.242Z"}

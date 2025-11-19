@@ -1,0 +1,111 @@
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T09:48:38.990Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:02:13.519Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:09:19.793Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:09:19.868Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:16:24.261Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:16:24.447Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:19:26.220Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:19:26.419Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:19:49.435Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:19:49.601Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:19:54.743Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:19:54.918Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:21:24.354Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:21:24.564Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:21:45.335Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:21:45.509Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:43:35.577Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:43:35.756Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:43:41.021Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:43:41.207Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:44:01.642Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:44:01.822Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:44:06.405Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:44:06.587Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:44:12.216Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:44:12.397Z"}
+{"correlationId":"2aad32a1-106a-447d-926a-561e1a37cdbd","event":"UnhandledError","level":"error","message":"Cannot set property query of #<IncomingMessage> which has only a getter","method":"POST","route":"/api/auth/register","stack":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\xss-clean\\lib\\index.js:8:30\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:291:5)\n    at hpp (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\hpp\\lib\\index.js:146:9)\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9","timestamp":"2025-11-15T10:46:55.986Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:49:34.618Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:49:34.809Z"}
+{"correlationId":"b12bee46-ef4c-4b6b-89ba-691e8a51f360","event":"UnhandledError","level":"error","message":"Cannot set property query of #<IncomingMessage> which has only a getter","method":"POST","route":"/api/auth/register","stack":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\xss-clean\\lib\\index.js:8:30\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:291:5)\n    at hpp (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\hpp\\lib\\index.js:146:9)\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9","timestamp":"2025-11-15T10:49:52.974Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:51:03.122Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:51:03.317Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:51:06.337Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:51:06.528Z"}
+{"correlationId":"d0659ca6-70d7-4245-bcf9-6b3367d52a9d","event":"UnhandledError","level":"error","message":"Cannot set property query of #<IncomingMessage> which has only a getter","method":"POST","route":"/api/auth/register","stack":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\xss-clean\\lib\\index.js:8:30\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:291:5)\n    at hpp (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\hpp\\lib\\index.js:146:9)\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9","timestamp":"2025-11-15T10:51:17.439Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:51:24.711Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:51:25.019Z"}
+{"correlationId":"7e394d11-f8f3-44b5-ac8f-b2828d09dbf7","event":"UnhandledError","level":"error","message":"Cannot set property query of #<IncomingMessage> which has only a getter","method":"POST","route":"/api/auth/register","stack":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\xss-clean\\lib\\index.js:8:30\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:291:5)\n    at hpp (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\hpp\\lib\\index.js:146:9)\n    at Layer.handleRequest (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\node_modules\\router\\index.js:297:9","timestamp":"2025-11-15T10:51:28.660Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:52:33.046Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:52:33.248Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:10:52:35 +0000] \"POST /api/auth/register HTTP/1.1\" 404 157 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T10:52:35.556Z"}
+{"correlationId":"cfaec58a-1629-4b4b-83bb-b687bfdfe970","details":["\"body.password\" length must be at least 8 characters long"],"event":"ApiError","level":"warn","message":"Validation failed","method":"POST","route":"/api/v1/auth/register","status":400,"timestamp":"2025-11-15T10:53:15.250Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:10:53:15 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 400 176 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T10:53:15.252Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:10:53:44 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 81 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T10:53:44.158Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:58:31.209Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:58:31.432Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:58:45.702Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:58:45.922Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T10:59:01.500Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T10:59:01.740Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:10:59:11 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 82 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T10:59:11.510Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:03:34 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 83 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:03:34.424Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:12:31.856Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:12:32.083Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:13:38 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 85 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:13:38.233Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:14:18.422Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:14:18.638Z"}
+{"correlationId":"cc7454b9-0c6f-43c7-b294-01aab5c95b7e","level":"error","message":"Unhandled Error Email already registered","stack":"Error: Email already registered\n    at Object.register (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\services\\auth.service.js:17:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\routes\\auth.routes.js:31:18","timestamp":"2025-11-15T11:14:24.290Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:14:24 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 500 106 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:14:24.294Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":500,"time":"11.225ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T11:14:24.295Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:17:33.365Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:17:33.581Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:36:13.245Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:36:13.460Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:36:21.457Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:36:21.688Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:36:45.867Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:36:46.106Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:36:52.597Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:36:52.828Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:37:54.258Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:37:54.486Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:38:20.167Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:38:20.408Z"}
+{"correlationId":"2f4fdfd0-cbd9-4c5f-8c7a-d82ffacabf43","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-15T11:38:57.021Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:38:57 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:38:57.024Z"}
+{"correlationId":"a4d98b88-0fcd-4f73-94e4-c3ccf09d450d","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-15T11:39:33.996Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:39:33 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:39:33.997Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:42:11.620Z"}
+{"correlationId":"10339817-a4d8-48af-9f06-f36b42b0cb83","details":null,"level":"warn","message":"API Error API access denied: Invalid origin","status":403,"timestamp":"2025-11-15T11:42:40.165Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:42:40 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 133 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:42:40.169Z"}
+{"correlationId":"9fa7aec0-4125-4def-8d17-e831c2720b85","details":null,"level":"warn","message":"API Error API access denied: Invalid origin","status":403,"timestamp":"2025-11-15T11:43:39.439Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:43:39 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 133 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:43:39.441Z"}
+{"correlationId":"25f45684-dc8b-4245-8dac-ced6457025fb","details":null,"level":"warn","message":"API Error API access denied: Invalid origin","status":403,"timestamp":"2025-11-15T11:45:21.847Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:45:21 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 133 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:45:21.849Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T11:45:29.585Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T11:45:29.937Z"}
+{"correlationId":"8b4448a8-bdbe-4a9e-83bf-61d2ba5ce789","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-15T11:45:33.639Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:11:45:33 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T11:45:33.643Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:25:47 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 85 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:25:47.608Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":201,"time":"121.272ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T12:25:47.610Z"}
+{"correlationId":"b5dcd006-71cd-48ce-a297-9ecb0d02f638","level":"error","message":"Unhandled Error Email already registered","stack":"Error: Email already registered\n    at Object.register (C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\services\\auth.service.js:17:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\raj11\\OneDrive\\Documents\\tiffin_delivery_aman\\server\\routes\\auth.routes.js:31:18","timestamp":"2025-11-15T12:33:34.962Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:33:34 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 500 106 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:33:34.964Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":500,"time":"8.090ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T12:33:34.964Z"}
+{"correlationId":"04697fae-e864-44df-9998-0e340988eac5","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-15T12:33:57.165Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:33:57 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:33:57.166Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:35:22 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 85 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:35:22.843Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":201,"time":"75.465ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T12:35:22.843Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:50:49 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 87 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:50:49.733Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":201,"time":"81.964ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T12:50:49.734Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:55:57 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 89 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:55:57.425Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":201,"time":"75.364ms","type":"http","url":"/api/v1/auth/register","userId":"guest"},"timestamp":"2025-11-15T12:55:57.425Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T12:56:20.573Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T12:56:20.855Z"}
+{"correlationId":"no-id","details":null,"level":"warn","message":"API Error Postman access denied: Missing or invalid developer key","status":403,"timestamp":"2025-11-15T12:56:33.562Z"}
+{"correlationId":"b53dfb7c-677b-477e-bba3-e67a69b1d9ae","details":null,"level":"warn","message":"API Error Developer access denied. Missing x-dev-access header.","status":403,"timestamp":"2025-11-15T12:59:36.156Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:12:59:36 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 403 153 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T12:59:36.158Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2025-11-15T13:01:01.765Z"}
+{"level":"info","message":"DB synced","timestamp":"2025-11-15T13:01:02.019Z"}
+{"level":"info","message":"::1 - - [15/Nov/2025:13:01:26 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 91 \"-\" \"PostmanRuntime/7.48.0\"","timestamp":"2025-11-15T13:01:26.815Z"}
+{"level":"info","message":{"agent":"PostmanRuntime/7.48.0","ip":"::1","method":"POST","status":201,"time":"89.291ms","type":"http","url":"/api/v1/auth/register","userId":"Developer"},"timestamp":"2025-11-15T13:01:26.816Z"}
