@@ -1,63 +1,137 @@
+// import { createContext, useState, useContext } from "react";
+// import api from "@/services/api";
 
-import { createContext, useState, useContext, useEffect } from "react";
+// const AuthContext = createContext();
+
+// export const AuthProvider = ({ children }) => {
+//   const [user, setUser] = useState(() => {
+//     try {
+//       return JSON.parse(localStorage.getItem("user")) || null;
+//     } catch {
+//       return null;
+//     }
+//   });
+
+//   const [accessToken, setAccessToken] = useState(
+//     sessionStorage.getItem("accessToken") || null
+//   );
+
+//   // ---------------- LOGIN ----------------
+//   const login = async (email, password) => {
+//     try {
+//       const res = await api.post("/auth/login", { email, password });
+
+//       setUser(res.data.user);
+//       setAccessToken(res.data.accessToken);
+
+//       // ⬅ STORE TOKENS
+//       sessionStorage.setItem("accessToken", res.data.accessToken);
+//       if (res.data.refreshToken) {
+//         sessionStorage.setItem("refreshToken", res.data.refreshToken);
+//       }
+
+//       localStorage.setItem("user", JSON.stringify(res.data.user));
+
+//       return { success: true, role: res.data.user.role };
+//     } catch (err) {
+//       return { success: false, message: "Invalid credentials" };
+//     }
+//   };
+
+//   // ---------------- LOGOUT ----------------
+//   // const logout = async () => {
+//   //   try {
+//   //     const refreshToken = sessionStorage.getItem("refreshToken");
+
+//   //     // ⬅ SEND REFRESH TOKEN IN LOGOUT REQUEST
+//   //     await api.post("/auth/logout", {
+//   //       refreshToken,
+//   //     });
+//   //   } catch (err) {}
+
+//   //   setUser(null);
+//   //   setAccessToken(null);
+
+//   //   // REMOVE TOKENS
+//   //   sessionStorage.removeItem("accessToken");
+//   //   sessionStorage.removeItem("refreshToken");
+//   //   localStorage.removeItem("user");
+//   // };
+
+//   const logout = async () => {
+//   try {
+//     await api.post("/auth/logout");
+//   } catch (err) {}
+
+//   setUser(null);
+//   setAccessToken(null);
+
+//   sessionStorage.removeItem("accessToken");
+//   sessionStorage.removeItem("refreshToken");
+//   localStorage.removeItem("user");
+// };
+
+//   return (
+//     <AuthContext.Provider value={{ user, login, logout, accessToken }}>
+//       {children}
+//     </AuthContext.Provider>
+//   );
+// };
+
+// export const useAuth = () => useContext(AuthContext);
+
+import { createContext, useState, useContext } from "react";
+import api from "@/services/api";
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
-
-  // Load user from localStorage on mount
-  useEffect(() => {
+  const [user, setUser] = useState(() => {
     try {
-      const savedUser = localStorage.getItem("user");
-      if (savedUser) setUser(JSON.parse(savedUser));
-    } catch (error) {
-      console.error("Error parsing user data:", error);
+      return JSON.parse(localStorage.getItem("user")) || null;
+    } catch {
+      return null;
     }
-  }, []);
+  });
 
-  // Login function
-  const login = (email, password) => {
-    // Admin credentials (hardcoded for now)
-    if (email === "admin@admin.com" && password === "admin123") {
-      const adminUser = {
-        email: "admin@admin.com",
-        password: "admin123",
-        role: "admin",
-        name: "Admin"
-      };
-      setUser(adminUser);
-      localStorage.setItem("user", JSON.stringify(adminUser));
-      return { success: true, role: "admin" };
-    }
+  const [accessToken, setAccessToken] = useState(
+    sessionStorage.getItem("accessToken") || null
+  );
 
-    const registeredUsers = JSON.parse(
-      localStorage.getItem("registeredUsers") || "[]"
-    );
-    if (!registeredUsers.length)
-      return { success: false, message: "No registered user found" };
+  // ---------------- LOGIN ----------------
+  const login = async (email, password) => {
+    try {
+      const res = await api.post("/auth/login", { email, password });
 
-    const foundUser = registeredUsers.find(
-      (u) => u.email === email && u.password === password
-    );
+      setUser(res.data.user);
+      setAccessToken(res.data.accessToken);
 
-    if (foundUser) {
-      setUser(foundUser);
-      localStorage.setItem("user", JSON.stringify(foundUser));
-      return { success: true, role: foundUser.role };
-    } else {
+      // Store token & user
+      sessionStorage.setItem("accessToken", res.data.accessToken);
+      localStorage.setItem("user", JSON.stringify(res.data.user));
+
+      return { success: true, role: res.data.user.role };
+    } catch (err) {
       return { success: false, message: "Invalid credentials" };
     }
   };
 
-  // Logout function
-  const logout = () => {
+  // ---------------- LOGOUT ----------------
+  const logout = async () => {
+    try {
+      await api.post("/auth/logout"); // no refresh token needed
+    } catch (err) {}
+
+    // Clear local auth
     setUser(null);
+    setAccessToken(null);
+
+    sessionStorage.removeItem("accessToken");
     localStorage.removeItem("user");
   };
 
   return (
-    <AuthContext.Provider value={{ user, login, logout }}>
+    <AuthContext.Provider value={{ user, login, logout, accessToken }}>
       {children}
     </AuthContext.Provider>
   );

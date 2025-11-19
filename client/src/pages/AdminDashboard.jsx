@@ -46,7 +46,7 @@ export default function AdminDashboard() {
     </Button>
 
     {/* ✅ Logout Button */}
-    <Button
+    {/* <Button
       onClick={() => {
         logout();
         window.location.href = "/";
@@ -54,7 +54,18 @@ export default function AdminDashboard() {
       className="bg-red-500 hover:bg-red-600 text-white rounded-xl shadow-md text-sm px-4 py-2"
     >
       Logout
-    </Button>
+    </Button> */}
+
+    <Button
+  onClick={async () => {
+    await logout();  // calls backend API
+    navigate("/");   // redirect safely
+  }}
+  className="bg-red-500 hover:bg-red-600 text-white rounded-xl shadow-md text-sm px-4 py-2"
+>
+  Logout
+</Button>
+
   </div>
 
 </header>
